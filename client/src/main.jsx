@@ -7,12 +7,12 @@ import { Auth0Provider } from "@auth0/auth0-react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Auth0Provider
-     domain="dev-03ifqltxbr6nn0hn.us.auth0.com"
-     clientId="RXlGXkr49Ev5MHpvAC6vKkZ4bVn11iwl"
+     domain="dev-ruuz0c8lte707v4s.us.auth0.com"
+     clientId="gR0BO7gnUGH8aSk6aCD41DcXdCPRO67T"
      authorizationParams={{
-      redirect_uri: "https://full-stack-real-estate-youtube-sooty.vercel.app"
+      redirect_uri: "https://real-estate-bhutan-three.vercel.app"
      }}
-     audience="http://localhost:8000"
+     audience="https://real-estate-bhutan-three.vercel.app"
      scope="openid profile email"
     >
       <App />
